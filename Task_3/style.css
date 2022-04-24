@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+        
+}
+
+
+h1{
+text-align: center;
+color: rgb(228, 11, 11);
+text-transform: uppercase;
+text-shadow:3px 3px 3px rgba(190, 238, 17, 0.72);
+margin: 20px auto;
+}
+
+
+.form{
+    background-color: rgb(17, 252, 48);
+    border:3px solid rgb(245, 116, 10);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(245, 109, 132);
+    width: fit-content;
+    height: fit-content;
+    margin :10px auto;
+    margin-bottom: 30px;
+    padding: 20px 60px 20px 0px;
+    font-size: 20px;
+    
+}
+
+.form th{
+    float: right;
+    text-align: center;
+}
+
+.form td input,select{
+    width: 100%;
+    margin: 0 5px ;
+}
+
+#btn{
+    display:block;
+    cursor: pointer;
+    width: 250%;
+    background-color: rgb(9, 192, 248);
+    color: white;
+    border:1px solid rgb(3, 3, 3);
+    border-radius: 6px;
+    font-size: 20px;
+    margin: 5px 40%;
+    text-transform: capitalize;
+}
+
+
+body{
+    background: linear-gradient(200deg, rgb(241, 141, 158) 0%, rgb(168, 250, 113) 100% );
+}
+    
+.show{
+    display: flex;
+    margin: 0px auto;
+    background-color: rgb(19, 143, 226);
+    padding: 1px;
+    align-items: center;
+    border: 1px solid black;
+    width: fit-content;
+    text-decoration: bold,black;
+    
+}
+#head {
+    display: block;
+    margin:10px  ;
+    justify-content: center;
+}
+
+#head th {
+    list-style: none;
+    color: rgb(249, 251, 252);
+    width: 32vh;
+    height: 30px;
+    padding: 5px; 
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: linear-gradient( 90deg, rgb(4, 191, 248)0%, rgb(3, 3, 3) 100% );
+}
